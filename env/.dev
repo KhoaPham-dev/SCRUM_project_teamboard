@@ -1,0 +1,2 @@
+REACT_APP_API = https://iservice.api.developteam.net/iservice-api
+GENERATE_SOURCEMAP=true

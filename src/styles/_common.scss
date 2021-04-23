@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-bar {
+    margin: 10px 0;
+    text-align: right;
+}
+.action-bar.province,
+.action-bar.category{
+    margin: 10px 0;
+    margin-left: 4px;
+    text-align: unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.icfa {
+    margin-right: 10px;
+}
+
+/* CSS for form */
+.img-uploaded {
+    // width: 86px;
+    height: 86px;
+}
+
+.avatar-contain {
+    img {
+        object-fit: contain;
+    }
+}
+
+.margin-top-fieldset {
+    margin-top: 2em;
+}
+
+.custom-fieldset {
+    padding: 1em;
+    border: 1px solid #f0f0f0;
+    legend {
+        font-size: 16px;
+        display: unset;
+        width: unset;
+        padding: 0 10px;
+        border-bottom: unset;
+        margin: unset;
+    }
+}
+
+.bold-fieldset {
+    >legend {
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.85);
+    }
+}
+
+.search-form {
+    .ant-form-item {
+        margin: 4px;
+    }
+    .ant-select-loading {
+        .ant-select-selection-item { display: none; }
+    }
+}
+
+/* End css for form*/
+
+/* CSS for base table*/
+.base-table {
+    .ant-table-row {
+        td {
+            padding: 4px 8px !important;
+        }
+        .img-col {
+            width: 70px;
+            height: 50px;
+        }
+        .empty-img-col {
+            font-size: 68px;
+            color: #c1c1c1;
+        }
+        .tag-status {
+            width: 60px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .ant-table-row:nth-child(odd) td{
+        background-color: #fff;
+    }
+    .ant-table-row:nth-child(even) td{
+        background-color:#f9f9f9;
+    }
+}
+
+/* End css for base table*/
+
+.quill {
+    .ql-toolbar {
+        line-height: 22px;
+    }
+    .ql-editor{
+        min-height: 300px !important;
+        max-height: 500px;
+    }
+}
+
+.pre-line {
+    white-space: pre-line;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.serch-customer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.happy-hours-table {
+    // border-collapse: collapse;
+    // border: 1px solid #d9d9d9;
+    text-align: center;
+    width: 100%;
+    td, th {
+        border: 1px solid #d9d9d9;
+        // display: flex;
+    }
+    .days-of-weeks-col {
+        text-align: center;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    .ant-form-item {
+        margin: 0 4px;
+    }
+}
+
+.no-margin-form-item {
+    .ant-form-item {
+        margin-bottom: 0;
+    }
+}
+
+.token-form {
+    .ant-descriptions-item-label {
+        color: rgba(0,0,0,.85);
+        font-weight: 700;
+    }
+}
+
+
+.small-form-items  {
+    .ant-form-item {
+        margin-bottom: 8px;
+    }
+}
+
+.food-data-fieldset {
+    margin-top: -12px;
+}
+
+.color-picker {
+    width: 100%;
+    .rc-color-picker-trigger {
+        width: 100% !important;
+        height: 30px !important;
+    }
+}
+
+.tab-fixed-header {
+    .ant-tabs-content-holder {
+        max-height: calc(100vh - 166px);
+        overflow: auto;
+    }
+}
+
+.keyboard-shortcut {
+    border-left: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
+    .ant-col {
+        border-top: 1px solid rgb(240, 240, 240);
+        border-right: 1px solid rgb(240, 240, 240);
+        button {
+            width: 100%;
+        }
+    }
+    .ant-col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 5px;
+        line-height: 1.2em;
+        height: 44px;
+    }
+    .ant-col.active {
+        background: rgb(0, 146, 255);
+        color: #fff;
+    }
+}
+
+.ant-picker-footer {
+    display: none;
+}
+.customer-avatar img{
+    border-radius: 50%;
+}
+
+.custom-fieldset {
+    padding: 1em;
+    border: 1px solid #cdcdcd;
+    // border: 1px solid #f0f0f0;
+    margin-bottom: 50px;
+
+}
+
+.custom-fieldset legend{
+    color: black;
+}
+
+.ant-card-type-inner .ant-card-head {
+    padding: 0 24px;
+    background: #00b768;    //Chỉnh màu đây nè
+}
+
+.ant-card-type-inner .ant-card-body {
+    padding: 16px 24px;
+    background: rgba(255,255,255,.9);  //Chỉnh đây nữa nè
+}
